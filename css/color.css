@@ -1,0 +1,12 @@
+:root {
+  --white:#ffffff;
+  --black: #000000;
+  --neutral-100: rgb(245, 242, 242);
+  --neutral-200: #e9e7e7;
+  --neutral-300:#E1E1E1;
+  --neutral-500: grey;
+  --neutral-900: #111111;
+  --danger-500: #D5312F;
+  --overlay-dark: rgba(3, 3, 3, 0.4);
+  --shadow-700: rgb(70, 66, 66);
+}
