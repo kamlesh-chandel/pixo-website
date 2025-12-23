@@ -2,7 +2,7 @@ const gridContainer = document.querySelector(".main-container");
 const arrowButton = document.querySelector("#arrow-btn");
 const profileContainer = document.querySelector(".profile-container");
 
-let imagesData = JSON.parse(localStorage.getItem("imagesData"));
+const imagesData = JSON.parse(localStorage.getItem("imagesData"));
 
 function appendImages() {
   imagesData.forEach((image) => {
