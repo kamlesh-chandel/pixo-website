@@ -1,6 +1,6 @@
-let gridContainer = document.querySelector(".main-container");
-let arrowButton = document.querySelector("#arrow-btn");
-let profileContainer = document.querySelector(".profile-container");
+const gridContainer = document.querySelector(".main-container");
+const arrowButton = document.querySelector("#arrow-btn");
+const profileContainer = document.querySelector(".profile-container");
 
 let imagesData = JSON.parse(localStorage.getItem("imagesData"));
 
